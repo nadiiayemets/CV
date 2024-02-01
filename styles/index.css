@@ -89,6 +89,17 @@ h3 {
   margin-top: 60px;
 }
 
+.crm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crm_screenshots {
+  width: 600px;
+  margin-top: 60px;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -112,68 +123,72 @@ h4 {
   gap: 24px;
 }
 
-.linkedin, .instagram, .telegram {
+.linkedin,
+.instagram,
+.telegram {
   width: 60px;
 }
 
 @media screen and (max-width: 450px) {
-.greeting {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  max-width: 350px;
-}
+  .greeting {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 350px;
+  }
 
   .screens {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 64px;
-  margin-top: 60px;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 60px;
+  }
 
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 24px;
-  font-weight: 300;
-  text-align: center;
-  margin-top: 24px;
-}
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 24px;
+  }
 
-.screenshots {
-  width: 300px;
-}
+  .screenshots {
+    width: 300px;
+  }
 
-.gif {
-  width: 300px;
-}
+  .gif {
+    width: 300px;
+  }
 
-.link {
-  font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 36px;
-}
+  .link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 36px;
+  }
 
-.rocket_screenshots {
-  width: 300px;
-  margin-top: 60px;
-}
+  .rocket_screenshots {
+    width: 300px;
+    margin-top: 60px;
+  }
 
-.delivery_screenshots {
-  width: 300px;
-  margin-top: 60px;
-}
+  .delivery_screenshots {
+    width: 300px;
+    margin-top: 60px;
+  }
 
-.media_links {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
+  .media_links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
 
-.linkedin, .instagram, .telegram {
-  width: 56px;
-}
+  .linkedin,
+  .instagram,
+  .telegram {
+    width: 56px;
+  }
 }
